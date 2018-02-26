@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="B1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\geant4\;CMake Files\..\..\geant4\geant4-build\;CMake Files\..\..\geant4\geant4-build\lib\;CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\;CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B1">
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 B1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleB1">
+				<Option output="/home/forwolk/Projects/diplom/cmake-build-debug/exampleB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4MULTITHREADED"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/home/forwolk/geant4/geant4-build/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/forwolk/Projects/diplom/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 exampleB1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleB1/fast">
+				<Option output="/home/forwolk/Projects/diplom/cmake-build-debug/exampleB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/forwolk/Projects/diplom/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4_STORE_TRAJECTORY"/>
+					<Add option="-DG4VERBOSE"/>
+					<Add option="-DG4UI_USE"/>
+					<Add option="-DG4VIS_USE"/>
+					<Add option="-DG4MULTITHREADED"/>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add directory="/home/forwolk/geant4/geant4-build/include/Geant4"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/home/forwolk/Projects/diplom/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 exampleB1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/forwolk/Projects/diplom/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/forwolk/Projects/diplom/exampleB1.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/exampleB1.in">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/Action.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/GeantGeometry.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/GeantRunAction.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/GeantUserEventAction.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/ParticleSource.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/include/StepAction.h">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/Action.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/GeantGeometry.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/GeantRunAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/GeantUserEventAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/ParticleSource.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/src/StepAction.cc">
+			<Option target="exampleB1"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/exampleB1.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/exampleB1.out">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/init_vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/run1.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/run2.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/Geant4LibraryDepends-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\"/>
+		</Unit>
+		<Unit filename="/home/forwolk/Projects/diplom/../../geant4/geant4-build/lib/Geant4-10.3.3/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\geant4\geant4-build\lib\Geant4-10.3.3\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
