@@ -4,10 +4,14 @@
 
 
 #include <G4LogicalVolume.hh>
+#include <G4PVPlacement.hh>
 
 class ObjectHolder {
 public:
-    G4LogicalVolume *installationLog();
+    G4PVPlacement *installationPlacement();
+    G4LogicalVolume *sensorLog();
+    G4LogicalVolume *leadLog();
+    G4LogicalVolume *sampleLog();
     G4LogicalVolume *tableLog();
     G4LogicalVolume *planeLog();
     G4LogicalVolume *safeLog();

@@ -6,9 +6,6 @@
 #include <G4Material.hh>
 
 class MaterialHolder {
-private:
-    MaterialHolder();
-    ~MaterialHolder();
 public:
     G4Material * sampleMaterial1 ();
     G4Material * sampleMaterial2 ();
@@ -17,7 +14,6 @@ public:
     G4Material * sampleMaterial5 ();
     G4Material * sampleMaterial6 ();
     G4Material * sampleMaterial7 ();
-    static MaterialHolder &getInstance();
 };
 
 

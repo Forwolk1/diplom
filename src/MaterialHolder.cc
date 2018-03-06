@@ -143,8 +143,3 @@ G4Material * MaterialHolder::sampleMaterial7 () {
     return sampleMaterial;
 }
 
-MaterialHolder & MaterialHolder::getInstance() {
-    static MaterialHolder instance;
-    return instance;
-}
-

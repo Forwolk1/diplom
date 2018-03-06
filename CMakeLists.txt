@@ -37,7 +37,7 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Geant4 libraries
 #
-add_executable(main main.cc ${sources} ${headers} src/GeantGeometry.cc include/GeantGeometry.h src/GeantGeometry.cc src/GeantGeometry.cc include/GeantGeometry.h src/ObjectHolder.cc include/ObjectHolder.h src/MaterialHolder.cc include/MaterialHolder.h)
+add_executable(main main.cc ${sources} ${headers} src/GeantGeometry.cc include/GeantGeometry.h src/GeantGeometry.cc src/GeantGeometry.cc include/GeantGeometry.h src/ObjectHolder.cc include/ObjectHolder.h src/MaterialHolder.cc include/MaterialHolder.h src/Utils.cc include/Utils.h)
 target_link_libraries(main ${Geant4_LIBRARIES})
 
 #----------------------------------------------------------------------------
